@@ -10,7 +10,7 @@ register = template.Library()
 
 user_model=get_user_model()
 
-logger=logging.getLogger(_name_)
+
 
 @register.simple_tag(takes_context=True)
 def author_details_tag(context):
